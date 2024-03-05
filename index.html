@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Q3 SW 2</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<style>
+		body{
+			background-image:url(https://static.wikia.nocookie.net/supercell-fankit/images/6/6e/Beta_Background.png/revision/latest?cb=20201119010233.jpg);
+		}
+
+		.container{
+			background-color:yellow;
+			padding:15px;
+		}
+
+		h2{
+		  color:blue;
+		}
+
+		.row{
+			color:orange;
+		}
+	</style>
+</head>
+<body>
+
+<div class="container mt-3"> 
+    <h2>User Registration</h2>
+	
+	<form>
+      <div class="row username mb-3" > 
+        <label for="username" class="col-sm-2 col-form-label">Username:</label>
+        <div class="col-sm-10">
+        	<input type="text" class="form-control" id="username" placeholder="Enter your username">
+        </div>
+      </div>
+
+      <div class="row email mb-3" > 
+        <label for="email" class="col-sm-2 col-form-label">Email address:</label>
+        <div class="col-sm-10">
+        	<input type="email" class="form-control" id="email" placeholder="Enter your email">
+        </div>
+      </div>
+
+      <div class="row password mb-3"> 
+        <label for="password" class="col-sm-2 col-form-label">Password:</label>
+        <div class="col-sm-10">
+        	<input type="password" class="form-control" id="password" placeholder="Enter your password">
+        </div>
+      </div>
+
+      <div class="row password mb-3"> <!-- Add appropriate class -->
+        <label for="confirmPassword" class="col-sm-2 col-form-label">Confirm Password:</label>
+        <div class="col-sm-10">
+        	<input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password">
+        </div>
+      </div>
+
+      <div class="row terms mb-3">
+      	<div class="offset-sm-2">
+      		<div class="form-check col-sm-10">
+        		<input class="form-check-input" type="checkbox" id="terms">
+        		<label class="form-check-label" for="terms">I agree to the terms and conditions</label>
+      		</div>
+      	</div>
+      </div>
+     <div class="row">
+	    	<div class="offset-sm-2">
+	    		<div class="col-sm-10">
+	    			<button type="submit" class="btn btn-primary">Register</button>
+	    		</div>
+	    	</div>
+	    	</div>
+	    </form>
+	</div>
+ 
+ <div class="container mt-3">
+	    <center><p class="h1">Brawlers</p></center>
+		<table class="table table-bordered">
+			<thead>
+			   	<tr>	
+			      <th><p class="h1">Brawlers</p></th>
+			      <th><p class="h1">Super</p></th>
+			      <th><p class="h1">Gadget</p></th>
+			      <th><p class="h1">Starpower</p></th>
+			    </tr>
+			   </thead>
+			   <tbody>
+			      <tr class="table-success">
+			      <td><p class="h2">Spike</p><img src="https://www.clasher.us/images/bs/units/Spike.png" width="300"></td>
+			      <td><p class="h3 text-bg-warning">Super: Stick Around!</p> <img src="https://preview.redd.it/what-is-the-most-unique-super-in-the-game-in-your-opinion-v0-6biedugner8b1.png?width=640&crop=smart&auto=webp&s=a48e5c1254bf2d5f49e09486d834221aa58ddbe1" width="150"> <p>Description : Spike lobs a thorny grenade. Enemies caught in the blast area take damage and are slowed down.</p></td>	
+			      <td><p class="h3 text-bg-success">Gadget: Life Plant</p><img src="https://static.wikia.nocookie.net/brawlstars/images/7/7c/GD-Spike2.png/revision/latest/scale-to-width-down/64?cb=20230914224415" width="150"><p>Description : Spike grows a large cactus with 2400 health to give cover to friendlies. If destroyed, the cactus bursts, and all nearby friendlies recover 1440 health</p></td>	
+			      <td><p class="h3 text-bg-warning">Starpower: Curveball</p><img src="https://static.wikia.nocookie.net/brawlstars/images/2/23/SP-Spike2.png/revision/latest/scale-to-width-down/64?cb=20211111070840" width="150"><p>Description : Spikes from the cactus grenade fly in a curving motion, making it easier to hit targets.</p></td>	
+			    </tr>      
+			      <tr class="table-danger"> 	
+			        <td><p class="h2">Max</p><img src="https://static.wikia.nocookie.net/brawlstars/images/3/33/Max_Skin-Default.png/revision/latest/scale-to-width-down/1000?cb=20201110222310" width="200"></td>
+			        <td><p class="h3 text-bg-warning">Super: Let's Go!</p><img src="https://preview.redd.it/what-is-the-most-unique-super-in-the-game-in-your-opinion-v0-6biedugner8b1.png?width=640&crop=smart&auto=webp&s=a48e5c1254bf2d5f49e09486d834221aa58ddbe1" width="150"> <p>Description : Max momentarily boosts up her movement speed and that of nearby allies. Gotta go fast!</p></td>
+			        <td><p class="h3 text-bg-success">Gadget: Phase Shifter</p><img src="https://static.wikia.nocookie.net/brawlstars/images/d/de/GD-Max1.png/revision/latest/scale-to-width-down/64?cb=20211105111436" width="150"><p>Description : Max dashes forward, and becomes immune to all damage from enemies while dashing.</p></td>
+			        <td><p class="h3 text-bg-warning">Starpower: Run n'Gun</p><img src="https://static.wikia.nocookie.net/brawlstars/images/e/e3/SP-Max2.png/revision/latest/scale-to-width-down/64?cb=20211109033925" width="150"><p>Description : Max reloads faster while moving.</p></td>
+			     <tr class="table-active">
+			     	 <td><p class="h2">Cordelius</p><img src="https://static.wikia.nocookie.net/brawlstars/images/1/1d/Cordelius_Skin-Default.png/revision/latest?cb=20230718232423" width="400"></td>
+			        <td><p class="h3 text-bg-warning">Super: This Is My Domain</p> <img src="https://preview.redd.it/what-is-the-most-unique-super-in-the-game-in-your-opinion-v0-6biedugner8b1.png?width=640&crop=smart&auto=webp&s=a48e5c1254bf2d5f49e09486d834221aa58ddbe1" width="150"> <p>Description : Cordelius shoots a Shadow Mushroom that passes through walls and on hit transfers the target and him to the Shadow Realm for 8 seconds. Cordelius has 20% higher movement speed and 30% reload speed in the Shadow Realm.</p></td>
+			        <td><p class="h3 text-bg-success">Gadget: Poison Mushroom</p><img src="https://static.wikia.nocookie.net/brawlstars/images/7/70/GD-Cordelius2.png/revision/latest/scale-to-width-down/64?cb=20230626182526" width="150"><p>Description : Cordelius' next main attack shoots a poison mushroom that prevents the enemy from attacking for 1 second.</p></td>
+			        <td><p class="h3 text-bg-warning">Starpower: Comboshrooms</p><img src="https://static.wikia.nocookie.net/brawlstars/images/f/ff/SP-Cordelius1.png/revision/latest/scale-to-width-down/64?cb=20230626183057" width="150"><p>Description : Hitting the second mushrooms to the same target as the first, deals 30% extra damage.</p></td>
+
+			      <tr class="table-warning">
+			      	<td><p class="h2">Poco</p><img src="https://static.wikia.nocookie.net/brawlstars/images/2/24/Poco_Skin-Default.png/revision/latest?cb=20230225175317" width="300"></td>
+			        <td><p class="h3 text-bg-warning">Super: Encore</p> <img src="https://preview.redd.it/what-is-the-most-unique-super-in-the-game-in-your-opinion-v0-6biedugner8b1.png?width=640&crop=smart&auto=webp&s=a48e5c1254bf2d5f49e09486d834221aa58ddbe1" width="150"> <p>Description : Poco heals himself and all friends he can reach with his uplifting melody. Does not affect enemies.</p></td>
+			        <td><p class="h3 text-bg-success">Gadget: Tuning Fork</p><img src="https://static.wikia.nocookie.net/brawlstars/images/d/df/GD-Poco1.png/revision/latest/scale-to-width-down/64?cb=20211114233454" width="150"><p>Description : Poco and all nearby allies heal 592 health per second for 5 seconds.</p></td>
+			        <td><p class="h3 text-bg-warning">Starpower: Da Capo!</p><img src="https://static.wikia.nocookie.net/brawlstars/images/c/c9/SP-Poco1.png/revision/latest/scale-to-width-down/64?cb=20211221134140" width="150"><p>Description : When Poco's attack hits friendly Brawlers they now heal for 962 health.</p></td>
+			        
+			      <tr class="table-info">
+			      	<td><p class="h2">Gale</p><img src="https://static.wikia.nocookie.net/brawlstars/images/1/1e/Gale_Skin-Default.png/revision/latest?cb=20220208174401" width="250"></td>
+			        <td><p class="h3 text-bg-warning">Super: Gale Force!</p> <img src="https://preview.redd.it/what-is-the-most-unique-super-in-the-game-in-your-opinion-v0-6biedugner8b1.png?width=640&crop=smart&auto=webp&s=a48e5c1254bf2d5f49e09486d834221aa58ddbe1" width="150"> <p>Description : Gale delivers an almighty gust of wind and snow, pushing back all enemies caught in its path.</p></td>
+			        <td><p class="h3 text-bg-success">Gadget: Spring Ejector</p><img src="https://static.wikia.nocookie.net/brawlstars/images/d/de/GD-Gale1.png/revision/latest/scale-to-width-down/64?cb=20211114144732" width="150"><p>Description : Gale drops a bounce pad underfoot, launching friend and foe alike into the air.</p></td>
+			        <td><p class="h3 text-bg-warning">Starpower: Blustery Blow!</p><img src="https://static.wikia.nocookie.net/brawlstars/images/9/97/SP-Gale1.png/revision/latest/scale-to-width-down/64?cb=20211114134725" width="150"><p>Description : Gale's Super now stuns enemies for 1.2 seconds if they are pushed against obstacles.</p></td>
+			     </tr>
+			    </tbody>
+			  </table>
+			  <h1>Reference:</h1>
+			  <a href="https://brawlstars.fandom.com/wiki/Category:Brawlers">Brawl Stars Wiki</a>
+		</div>
+</body>
+</html>
